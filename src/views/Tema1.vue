@@ -18,47 +18,47 @@
             
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-12.col-lg-10
-        .cajon.color-secundario.p-4.mb-5.pri
+        .cajon.color-secundario.p-4.mb-5
           p.mb-0 Los desarrollos de #[em software] se limitan a cumplir los requisitos de un área o un proceso determinado, como una isla en la empresa, donde no se integra información, ni formatos. Hoy en día, aún las empresas usan sistemas para cada área, por ejemplo, contabilidad, recursos humanos, área financiera, ventas, ofertas, #[em marketing], producción, etc.
       
-      strong.mb-4 En los modelos y metodologías de analítica, se debe tener presente:
+      p #[b En los modelos y metodologías de analítica, se debe tener presente:]
 
     .tarjeta.tarjeta--azul.py-5.p-4.mb-5
       SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
         .row.justify-content-center
-          .col-lg-4.col-12.mx-3.my-3
+          .col-lg-6.col-12.my-3
             h4.mb-5 Manejo integral
-            p.mb-lg-0.mb-3 Cada área, puede manejar su sistema de información por aparte, sin tener en cuenta integraciones o calidad de la información, generando muchísimos datos, pero sin explotar de manera óptima su riqueza escondida, la cual pudiera tener si se gestiona de manera integral y usando técnicas y tecnologías de la cuarta revolución industrial.
-          .col-lg-7.col-8  
-            img.mb-0.mx-5(alt="tema1" src="@/assets/curso/img/img2.svg")
+            p.mb-3 Cada área, puede manejar su sistema de información por aparte, sin tener en cuenta integraciones o calidad de la información, generando muchísimos datos, pero sin explotar de manera óptima su riqueza escondida, la cual pudiera tener si se gestiona de manera integral y usando técnicas y tecnologías de la cuarta revolución industrial.
+          .col-lg-5.col-8  
+            img(alt="tema1" src="@/assets/curso/img/img2.svg")
 
         .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
+          .col-lg-6.col-12.my-3
             h4.mb-5 Implementación con propósito
-            p.mb-lg-0.mb-3 Al momento de pensar en una solución de analítica de negocio, es fundamental tener todas las preguntas que tanto el nivel de decisión, como el nivel operativo requieren.
+            p.mb-3 Al momento de pensar en una solución de analítica de negocio, es fundamental tener todas las preguntas que tanto el nivel de decisión, como el nivel operativo requieren.
           .col-lg-5.col-8
-            img.mb-0.mx-5(alt="tema1" src="@/assets/curso/img/img3.svg")
+            img(alt="tema1" src="@/assets/curso/img/img3.svg")
 
         .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
+          .col-lg-6.col-12.my-3
             h4.mb-5 Conciencia institucional
-            p.mb-lg-0.mb-3 Cuando las organizaciones no tengan claridad sobre el uso del BI en el negocio, es necesario concientizar a los directivos que muchos problemas de la organización se deben a la falta de datos al instante, actualizados y que reflejen una realidad.
+            p.mb-3 Cuando las organizaciones no tengan claridad sobre el uso del BI en el negocio, es necesario concientizar a los directivos que muchos problemas de la organización se deben a la falta de datos al instante, actualizados y que reflejen una realidad.
           .col-lg-5.col-8
-            img.mb-0.mx-5(alt="" src="@/assets/curso/img/img4.svg")
+            img(alt="" src="@/assets/curso/img/img4.svg")
 
         .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
+          .col-lg-6.col-12.my-3
             h4.mb-5 Oportunidad y practicidad
-            p.mb-lg-0.mb-3 Si se toma como ejemplo, una feria de negocios importante, donde se presentan grandes oportunidades de conectar con clientes grandes, se espera que lleguen representantes de otras firmas; mientras, de manera tradicional, se trabaja confiando en la memoria y vagamente el ejecutivo de ventas recuerda que alguna vez su empresa ya había hecho negocios con este cliente que se acerca.
+            p.mb-3 Si se toma como ejemplo, una feria de negocios importante, donde se presentan grandes oportunidades de conectar con clientes grandes, se espera que lleguen representantes de otras firmas; mientras, de manera tradicional, se trabaja confiando en la memoria y vagamente el ejecutivo de ventas recuerda que alguna vez su empresa ya había hecho negocios con este cliente que se acerca.
           .col-lg-5.col-8
-            img.mb-0.mx-5(alt="" src="@/assets/curso/img/img6.svg")
+            img(alt="" src="@/assets/curso/img/img6.svg")
 
         .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
+          .col-lg-6.col-12.my-3
             h4.mb-5 Actualización y equipamiento para la labor
-            p.mb-lg-0.mb-3 Cuando las empresas tienen implementado un sistema de inteligencia de negocios, es de gran valor comercial, que el representante de ventas de la organización tenga en su dispositivo electrónico (celular, tableta, etc.), los datos de todos los clientes y sus historiales para que, con una búsqueda muy rápida, tenga de inmediato en pantalla, información que podría ser clave para conectar con nuevos clientes.
+            p.mb-3 Cuando las empresas tienen implementado un sistema de inteligencia de negocios, es de gran valor comercial, que el representante de ventas de la organización tenga en su dispositivo electrónico (celular, tableta, etc.), los datos de todos los clientes y sus historiales para que, con una búsqueda muy rápida, tenga de inmediato en pantalla, información que podría ser clave para conectar con nuevos clientes.
           .col-lg-5.col-8
-            img.mb-0.mx-5(alt="" src="@/assets/curso/img/img5.svg")
+            img(alt="" src="@/assets/curso/img/img5.svg")
 
     p.mb-4 Una de las condiciones iniciales más importantes son las preguntas, es decir, qué se necesita saber del negocio, qué decisiones se planean tomar y qué insumos se requieren para la toma de estas decisiones.
     strong En sí, se deben seleccionar varios elementos para el desarrollo de soluciones analíticas, tales como:    

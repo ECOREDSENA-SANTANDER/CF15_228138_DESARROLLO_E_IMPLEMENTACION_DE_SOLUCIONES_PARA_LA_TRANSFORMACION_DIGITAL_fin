@@ -8,11 +8,11 @@
           i.fas.fa-info
       h1 Introducción
       
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.col-8
+    .row.justify-content-center.align-items-top.mb-4
+      .col-lg-5.col-md-9.col-9
         img.mb-3(src="@/assets/curso/img/img1.svg" alt="")
-      .col-lg-7.col-12
-        .cajon.color-secundario.p-4.mb-5.pri
+      .col-lg-7.col-12.my-2
+        .cajon.color-secundario.p-4.my-4
           p.mb-0 Se da la bienvenida al estudio del componente formativo
             strong.rojo “Analítica de datos y visualización”
             | . Para comenzar satisfactoriamente esta experiencia de aprendizaje, se le invita a explorar el video que se muestra a continuación. 

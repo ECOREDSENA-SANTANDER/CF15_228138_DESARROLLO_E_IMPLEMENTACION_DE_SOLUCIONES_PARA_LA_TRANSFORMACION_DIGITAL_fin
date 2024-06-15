@@ -30,7 +30,18 @@
   border-color: #FF6148
 
 
-
+.banner-principal .tarjeta 
+  img, svg 
+    display: block;
+    border-style: hidden;
+  figure, picture, img, svg 
+    margin: 0;
+    width: 45%;
+    max-width: 90%;
+.banner-principal .tarjeta 
+    background-color: #083142;
+    background-size: cover;
+    background-position: center;
 
 .rojo
   color: red
@@ -214,3 +225,18 @@
     position: relative;
     width: 64%;
     background-color: rgba(255, 255, 255, 0.95);
+
+
+@media (min-width: 768px) 
+    .p-md-4 
+        padding: 1rem !important;
+    
+@media (min-width: 768px) 
+    .mb-md-4 
+        margin-bottom: 0rem !important;
+
+.down   
+  >.my-5 
+    margin-top: 9rem !important;
+    margin-bottom: 0rem !important;
+

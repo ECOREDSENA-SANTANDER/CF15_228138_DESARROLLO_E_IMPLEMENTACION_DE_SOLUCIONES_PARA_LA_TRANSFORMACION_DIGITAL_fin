@@ -32,7 +32,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Modelos y metodologías de analítica',
+        titulo: 'Extracción y minería de datos',
         desarrolloContenidos: true,
       },
       {

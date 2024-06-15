@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 5
       h1 Tableros estadísticos, informes y resultados de visualización
@@ -97,32 +97,32 @@
         img.mb-lg-0.mb-3(src="@/assets/curso/img/img105.svg" alt="tema2")
       .col-lg-7.col-md-12.col-12.mb-3
         .cajaa1.p-4.mb-5
-          p.mt-4.mb-4 Los dashboard no son la única manera de ver resultados del negocio o visualizar los datos. Cada área del negocio podría generar sus propios reportes a partir del desarrollo de BI, incluso desde la propia data #[b warehouse] se puede suministrar a usuarios, datos filtrados según sus interesas particulares del negocio, para que ellos mismos puedan elaborar sus reportes con los datos del despliegue analítico, garantizando que las cifras, independiente del área coincidan entre ellas.
+          p.mt-4.mb-4 Los #[em dashboard] no son la única manera de ver resultados del negocio o visualizar los datos. Cada área del negocio podría generar sus propios reportes a partir del desarrollo de BI, incluso desde la propia data #[em warehouse] se puede suministrar a usuarios, datos filtrados según sus interesas particulares del negocio, para que ellos mismos puedan elaborar sus reportes con los datos del despliegue analítico, garantizando que las cifras, independiente del área coincidan entre ellas.
     
     p.mb-4 Lo anterior, dando respuesta a que las organizaciones y los usuarios, cada vez más, tienen más habilidades digitales y dominio de herramientas analíticas así no sean usuarios informáticos propiamente dicho.
     p.mb-4 #[b En relación con los informes y resultados de visualización, tenga presente:]
     
     .tarjeta.tarjeta--azul.py-5.p-4.mb-5
       SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
-        .row.justify-content-center
+        .row.justify-content-center.p-4
           .col-lg-6.col-12.my-3
-            h4.mb-5 Excel
+            h4.mb-4 Excel
             p.mb-3 La herramienta Excel, puede integrarse con bases de datos y otras herramientas de bases de datos que traigan las dimensiones para que los usuarios de Excel puedan realizar sus propios informes, imprimirlos o presentarlos, o simplemente para tomar decisiones con contexto. Estos OLAP se emplean con el mismo principio de tablas dinámicas o pivotes de datos.
-          .col-lg-5.col-8  
+          .col-lg-6.col-8  
             img(alt="tema1" src="@/assets/curso/img/imag10.svg")
 
-        .row.justify-content-center
+        .row.justify-content-center.p-4
           .col-lg-6.col-12.my-3
-            h4.mb-5 Los informes
+            h4.mb-4 Los informes
             p.mb-3 Hablando propiamente de informes, es un paso más allá de lo que son los reportes analíticos. Las tendencias de estos informes son, incorporar mayores capacidades visuales, proporcionando mayor libertad a los responsables de área o procesos para la creación y consumo para incluir en los informes ampliados estos recursos en archivos PDF, o presentaciones Power Point o similares.
-          .col-lg-5.col-8
+          .col-lg-6.col-8
             img(alt="tema1" src="@/assets/curso/img/img115.svg")
 
-        .row.justify-content-center
+        .row.justify-content-center.p-4
           .col-lg-6.col-12.my-3
-            h4.mb-5 Reporting
+            h4.mb-4 Reporting
             p.mb-3 Las herramientas de informes o reporting, permiten responder preguntas como ¿qué pasó?, debido a que es una de las primeras fases de la analítica descriptiva y que según las herramientas, se pueden generar o exportar cuando incluyen un motor de generación de informes.
-          .col-lg-5.col-8
+          .col-lg-6.col-8
             img(alt="" src="@/assets/curso/img/img125.svg")
 
 

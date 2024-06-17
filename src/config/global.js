@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Analítica de datos y visualización',
     descripcionCurso:
       'El presente componente formativo aborda aspectos generales y claves sobre elementos, métodos y herramientas empleados para el desarrollo de reportes y tableros, a partir de los datos. Con su estudio responsable, el aprendiz se afianzará en fuentes de datos, transformación, <em>machine learning</em> y desarrollo de gráficos, usando datos nativos y cálculos con lenguajes de consulta.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
